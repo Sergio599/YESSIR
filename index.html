@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Walentynkowa propozycja</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Cześć piękna!</h1>
+            <p class="pp" id="question">Zostaniesz moją walentynką?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Nie</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Tak</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Niezła próba, ale nie da się tak łatwo uciec!</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>YAY! Do zobaczenia 14-tego słodka.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
